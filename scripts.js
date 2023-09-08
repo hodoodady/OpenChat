@@ -3,7 +3,7 @@ $(document).ready(function () {
   });
 
   function chatGPT() {
-    const api_key = "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"  // <- API KEY 입력
+    const api_key = "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"  // <- API KEY 입력
     const keywords = document.getElementById('keywords').value
     $('#loading').show();
 
