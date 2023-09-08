@@ -3,7 +3,7 @@ $(document).ready(function () {
   });
 
   function chatGPT() {
-    const api_key = "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"  // <- API KEY 입력
+    const api_key = "sk-LpwtgBuJ46vdLtNHQxyCT3Bl"  // <- API KEY 입력
     const keywords = document.getElementById('keywords').value
     $('#loading').show();
 
@@ -23,7 +23,7 @@ $(document).ready(function () {
       url: "https://api.openai.com/v1/chat/completions",
       method: 'POST',
       headers: {
-        Authorization: "Bearer " + api_key,
+        Authorization: "Bearer " + api_key+"bkFJVGC5YKqxjkjZ2jgvgkxp",
         'Content-Type': 'application/json',
       },
       data: JSON.stringify(data),
